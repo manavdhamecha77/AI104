@@ -1,7 +1,7 @@
 import math
 
 # Function to calculate Distance between two 3D points
-def euclidean_distance(p1, p2):
+def distance(p1, p2):
     return math.sqrt((p2[0] - p1[0])**2 + (p2[1] - p1[1])**2 + (p2[2] - p1[2])**2)
 
 # Input 10 3D points
@@ -19,7 +19,7 @@ for i in range(10):
     
     for j in range(10):
         if i != j:
-            dist = euclidean_distance(point, points[j])
+            dist = distance(point, points[j])
             if min_dist is None or dist < min_dist:
                 min_dist = dist
                 nearest = points[j]
