@@ -8,7 +8,7 @@
 .top-heading {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 3em;
-    text-shadow: #000000 5px 5px 5px, rgb(255, 1, 1) -5px -3px 5px;
+    text-shadow: #000000 5px 5px 5px, rgba(255, 255, 255, 0.406) -5px -3px 5px;
 }
 
 .text-quote {
